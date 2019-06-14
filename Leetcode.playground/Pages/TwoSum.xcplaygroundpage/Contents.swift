@@ -39,6 +39,8 @@ func twoSumBetter(_ nums: [Int], _ target: Int) -> [Int] {
         let temp = target - value
         if let i = dict[temp] {
             result.append(index);
+            result.append(i);
+            break
         }
     }
 
@@ -59,8 +61,8 @@ func twoSumBest(_ nums: [Int], _ target: Int) -> [Int] {
     for (index, value) in nums.enumerated() {
         let temp = target - value
         if let i = dict[temp] {
-            result.append(index);
             result.append(i);
+            result.append(index);
             break
         }
         
