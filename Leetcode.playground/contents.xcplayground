@@ -3,6 +3,7 @@
     <pages>
         <page name='TwoSum'/>
         <page name='AddTwoNumbers'/>
-        <page name='lengthOfLongestSubstring'/>
+        <page name='LongestSubstringWithoutRepeatingCharacters'/>
+        <page name='ValidParentheses'/>
     </pages>
 </playground>
