@@ -43,7 +43,7 @@ class Solution {
     func isValid(_ s: String) -> Bool {
         var stack = [Character]()
         
-        for (index, char) in s.enumerated() {
+        for (_, char) in s.enumerated() {
             if let topChar = stack.last {
                 if  (topChar == ("(") as Character && char == (")") as Character) ||
                     (topChar == ("[") as Character && char == ("]") as Character) ||
