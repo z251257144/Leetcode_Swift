@@ -10,23 +10,22 @@
  注意空字符串可被认为是有效字符串。
  
  示例 1:
- 
  输入: "()"
  输出: true
- 示例 2:
  
+ 示例 2:
  输入: "()[]{}"
  输出: true
- 示例 3:
  
+ 示例 3:
  输入: "(]"
  输出: false
- 示例 4:
  
+ 示例 4:
  输入: "([)]"
  输出: false
- 示例 5:
  
+ 示例 5:
  输入: "{[]}"
  输出: true
  
@@ -38,12 +37,31 @@
 
 import Foundation
 
-var str = "Hello, playground"
+var str = "{"
 
 class Solution {
     func isValid(_ s: String) -> Bool {
+        var stack = [Character]()
         
-        return true
+        for (index, char) in s.enumerated() {
+            if let topChar = stack.last {
+                if  (topChar == ("(") as Character && char == (")") as Character) ||
+                    (topChar == ("[") as Character && char == ("]") as Character) ||
+                    (topChar == ("{") as Character && char == ("}") as Character){
+                    stack.removeLast();
+                }
+                else {
+                    stack.append(char);
+                }
+            }
+            else {
+                stack.append(char);
+            }
+        }
+        
+        return stack.isEmpty
     }
 }
+
+print("校验结果：\(Solution().isValid(str))");
 //: [Next](@next)
