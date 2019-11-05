@@ -8,6 +8,7 @@
         <page name='ValidParentheses'/>
         <page name='TwoSum'/>
         <page name='Demo'/>
-        <page name='Untitled Page'/>
+        <page name='ContainerWithMostWater'/>
+        <page name='ListNode'/>
     </pages>
 </playground>

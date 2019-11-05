@@ -21,7 +21,7 @@ import Foundation
 
 let nums = [2, 7, 11, 15]
 print("暴力解法：\(TwoSum1.violentSolution(nums, target: 18))")
-print("优化解法：\(TwoSum1.betterSolution([3,3], target: 18))")
+print("优化解法：\(TwoSum1.betterSolution([3,3], target: 6))")
 print("最优解法：\(TwoSum1.bestSolution(nums, target: 18))")
 
 
