@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='macos' display-mode='raw'>
     <pages>
+        <page name='Demo'/>
         <page name='AddTwoNumbers'/>
         <page name='LongestSubstringWithoutRepeatingCharacters'/>
         <page name='MedianOfTwoSortedArrays'/>
         <page name='ReverseList'/>
-        <page name='ValidParentheses'/>
-        <page name='TwoSum'/>
-        <page name='Demo'/>
-        <page name='ContainerWithMostWater'/>
         <page name='ListNode'/>
+        <page name='ValidParentheses'/>
+        <page name='ContainerWithMostWater'/>
+        <page name='TwoSum'/>
+        <page name='MoveZeroes'/>
     </pages>
 </playground>

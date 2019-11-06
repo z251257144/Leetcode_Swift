@@ -24,6 +24,12 @@ print("暴力解法：\(TwoSum1.violentSolution(nums, target: 18))")
 print("优化解法：\(TwoSum1.betterSolution([3,3], target: 6))")
 print("最优解法：\(TwoSum1.bestSolution(nums, target: 18))")
 
+//第二遍
+print("暴力解法：\(TwoSum2.violentSolution(nums, 18))")
+
+print("最优解法：\(TwoSum2.bestSolution(nums, 18))")
+
+
 
 
 ////: 这暴力解法，性能最差，时间复杂度：n^2
