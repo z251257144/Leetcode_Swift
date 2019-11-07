@@ -12,4 +12,5 @@ print("Hello, World!")
 
 //TwoSumTest()
 //MoveZeroesTest()
-ContainerWithMostWaterTest()
+//ContainerWithMostWaterTest()
+ClimbStairsTest()

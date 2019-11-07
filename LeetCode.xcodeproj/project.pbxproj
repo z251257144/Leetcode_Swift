@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581F70B92373E6D400AE89AC /* ClimbStairsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F70B82373E6D400AE89AC /* ClimbStairsTest.swift */; };
+		581F70BB2373E6E100AE89AC /* ClimbStairs1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581F70BA2373E6E100AE89AC /* ClimbStairs1.swift */; };
 		588CE0C523730CBE0097D086 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0C423730CBE0097D086 /* main.swift */; };
 		588CE0CE237315200097D086 /* TwoSum1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CD237315200097D086 /* TwoSum1.swift */; };
 		588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CF237315480097D086 /* TwoSumTest.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		581F70B82373E6D400AE89AC /* ClimbStairsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairsTest.swift; sourceTree = "<group>"; };
+		581F70BA2373E6E100AE89AC /* ClimbStairs1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs1.swift; sourceTree = "<group>"; };
 		588CE0C123730CBE0097D086 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		588CE0C423730CBE0097D086 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		588CE0CD237315200097D086 /* TwoSum1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum1.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		581F70B72373E6B400AE89AC /* ClimbStairs */ = {
+			isa = PBXGroup;
+			children = (
+				581F70B82373E6D400AE89AC /* ClimbStairsTest.swift */,
+				581F70BA2373E6E100AE89AC /* ClimbStairs1.swift */,
+			);
+			path = ClimbStairs;
+			sourceTree = "<group>";
+		};
 		588CE0B823730CBE0097D086 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				588CE0C423730CBE0097D086 /* main.swift */,
+				581F70B72373E6B400AE89AC /* ClimbStairs */,
 				58E671B22373AD0A008C0F4E /* ContainerWithMostWater */,
 				58E671AB2373A7DC008C0F4E /* MoveZeroes */,
 				588CE0CC237314F20097D086 /* TwoSum */,
@@ -177,10 +191,12 @@
 				588CE0C523730CBE0097D086 /* main.swift in Sources */,
 				58E671B62373AD24008C0F4E /* ContainerWithMostWater1.swift in Sources */,
 				58E671AD2373A7EF008C0F4E /* MoveZeroesTest.swift in Sources */,
+				581F70B92373E6D400AE89AC /* ClimbStairsTest.swift in Sources */,
 				58E671AF2373A7FD008C0F4E /* MoveZeroes1.swift in Sources */,
 				588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */,
 				58E671B12373A80D008C0F4E /* MoveZeroes2.swift in Sources */,
 				58E671B82373ADA0008C0F4E /* ContainerWithMostWater2.swift in Sources */,
+				581F70BB2373E6E100AE89AC /* ClimbStairs1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
