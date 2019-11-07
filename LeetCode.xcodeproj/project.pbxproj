@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		588CE0C523730CBE0097D086 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0C423730CBE0097D086 /* main.swift */; };
 		588CE0CE237315200097D086 /* TwoSum1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CD237315200097D086 /* TwoSum1.swift */; };
-		588CE0D0237315480097D086 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CF237315480097D086 /* TwoSum.swift */; };
+		588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CF237315480097D086 /* TwoSumTest.swift */; };
+		58E671AA2373A684008C0F4E /* TwoSum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671A92373A684008C0F4E /* TwoSum2.swift */; };
+		58E671AD2373A7EF008C0F4E /* MoveZeroesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671AC2373A7EF008C0F4E /* MoveZeroesTest.swift */; };
+		58E671AF2373A7FD008C0F4E /* MoveZeroes1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671AE2373A7FD008C0F4E /* MoveZeroes1.swift */; };
+		58E671B12373A80D008C0F4E /* MoveZeroes2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B02373A80D008C0F4E /* MoveZeroes2.swift */; };
+		58E671B42373AD18008C0F4E /* ContainerWithMostWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B32373AD18008C0F4E /* ContainerWithMostWaterTest.swift */; };
+		58E671B62373AD24008C0F4E /* ContainerWithMostWater1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B52373AD24008C0F4E /* ContainerWithMostWater1.swift */; };
+		58E671B82373ADA0008C0F4E /* ContainerWithMostWater2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B72373ADA0008C0F4E /* ContainerWithMostWater2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +35,14 @@
 		588CE0C123730CBE0097D086 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		588CE0C423730CBE0097D086 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		588CE0CD237315200097D086 /* TwoSum1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum1.swift; sourceTree = "<group>"; };
-		588CE0CF237315480097D086 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		588CE0CF237315480097D086 /* TwoSumTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTest.swift; sourceTree = "<group>"; };
+		58E671A92373A684008C0F4E /* TwoSum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum2.swift; sourceTree = "<group>"; };
+		58E671AC2373A7EF008C0F4E /* MoveZeroesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroesTest.swift; sourceTree = "<group>"; };
+		58E671AE2373A7FD008C0F4E /* MoveZeroes1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes1.swift; sourceTree = "<group>"; };
+		58E671B02373A80D008C0F4E /* MoveZeroes2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveZeroes2.swift; sourceTree = "<group>"; };
+		58E671B32373AD18008C0F4E /* ContainerWithMostWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTest.swift; sourceTree = "<group>"; };
+		58E671B52373AD24008C0F4E /* ContainerWithMostWater1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater1.swift; sourceTree = "<group>"; };
+		58E671B72373ADA0008C0F4E /* ContainerWithMostWater2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				588CE0C423730CBE0097D086 /* main.swift */,
+				58E671B22373AD0A008C0F4E /* ContainerWithMostWater */,
+				58E671AB2373A7DC008C0F4E /* MoveZeroes */,
 				588CE0CC237314F20097D086 /* TwoSum */,
 			);
 			path = LeetCode;
@@ -70,10 +86,31 @@
 		588CE0CC237314F20097D086 /* TwoSum */ = {
 			isa = PBXGroup;
 			children = (
-				588CE0CF237315480097D086 /* TwoSum.swift */,
+				588CE0CF237315480097D086 /* TwoSumTest.swift */,
 				588CE0CD237315200097D086 /* TwoSum1.swift */,
+				58E671A92373A684008C0F4E /* TwoSum2.swift */,
 			);
 			path = TwoSum;
+			sourceTree = "<group>";
+		};
+		58E671AB2373A7DC008C0F4E /* MoveZeroes */ = {
+			isa = PBXGroup;
+			children = (
+				58E671AC2373A7EF008C0F4E /* MoveZeroesTest.swift */,
+				58E671AE2373A7FD008C0F4E /* MoveZeroes1.swift */,
+				58E671B02373A80D008C0F4E /* MoveZeroes2.swift */,
+			);
+			path = MoveZeroes;
+			sourceTree = "<group>";
+		};
+		58E671B22373AD0A008C0F4E /* ContainerWithMostWater */ = {
+			isa = PBXGroup;
+			children = (
+				58E671B32373AD18008C0F4E /* ContainerWithMostWaterTest.swift */,
+				58E671B52373AD24008C0F4E /* ContainerWithMostWater1.swift */,
+				58E671B72373ADA0008C0F4E /* ContainerWithMostWater2.swift */,
+			);
+			path = ContainerWithMostWater;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E671B42373AD18008C0F4E /* ContainerWithMostWaterTest.swift in Sources */,
 				588CE0CE237315200097D086 /* TwoSum1.swift in Sources */,
+				58E671AA2373A684008C0F4E /* TwoSum2.swift in Sources */,
 				588CE0C523730CBE0097D086 /* main.swift in Sources */,
-				588CE0D0237315480097D086 /* TwoSum.swift in Sources */,
+				58E671B62373AD24008C0F4E /* ContainerWithMostWater1.swift in Sources */,
+				58E671AD2373A7EF008C0F4E /* MoveZeroesTest.swift in Sources */,
+				58E671AF2373A7FD008C0F4E /* MoveZeroes1.swift in Sources */,
+				588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */,
+				58E671B12373A80D008C0F4E /* MoveZeroes2.swift in Sources */,
+				58E671B82373ADA0008C0F4E /* ContainerWithMostWater2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

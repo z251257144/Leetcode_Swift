@@ -10,4 +10,6 @@ import Foundation
 
 print("Hello, World!")
 
-TwoSum.test()
+//TwoSumTest()
+//MoveZeroesTest()
+ContainerWithMostWaterTest()
