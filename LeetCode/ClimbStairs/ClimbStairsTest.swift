@@ -10,6 +10,10 @@ import Cocoa
 
 class ClimbStairsTest: NSObject {
     @discardableResult override init() {
-        print("暴力解法：\(ClimbStairs1.violentSolution(5))")
+//        print("暴力解法：\(ClimbStairs1.violentSolution(44))")
+        print("优化解法：\(ClimbStairs1.betterSolution(5))")
+        print("优化解法：\(ClimbStairs1.besetSolution(5))")
+        
+        
     }
 }
