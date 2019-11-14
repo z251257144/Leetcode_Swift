@@ -79,6 +79,7 @@ class ThreeSum1: NSObject {
                     while left < right, sortNums[right] == sortNums[right-1] {
                         right -= 1
                     }
+                    right -= 1
                     left += 1
                 }
                 else if temp > 0 {

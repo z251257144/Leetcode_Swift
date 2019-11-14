@@ -10,46 +10,29 @@ import Cocoa
 
 class SwapNodesInPairs1: NSObject {
     static func betterSolution(_ head: ListNode?) -> ListNode? {
-        var result: ListNode?, current = head, next = head?.next
-        if next == nil {
-            return head
-        }
-        else {
-            result = next
-        }
+        let result = ListNode(0)
+        result.next = head
         
-        while current != nil , next != nil {
-            let temp = next?.next
-            next?.next = current
-            current?.next = temp?.next == nil ? temp : temp?.next
-
-            current = temp
-            next = temp?.next
+        var current: ListNode? = result
+        while let start = current?.next,  let end = current?.next?.next {
+            current?.next = end
+            start.next = end.next
+            end.next = start
+            current = start
         }
 
-        
-        return result
+        return result.next
     }
     
     static func bestSolution(_ head: ListNode?) -> ListNode?  {
-//        let result = ListNode(0)
-//        result.next = head
-//        var current: ListNode? = result
-//        while let start = current?.next,  let end = current?.next?.next {
-//            current?.next = end
-//            start.next = end.next
-//            end.next = start
-//            current = start
-//        }
-//
-//        return result.next
-        guard let l1 = head?.next else {
+
+        guard let next = head?.next else {
             return head
         }
 
-        head?.next = self.bestSolution(l1.next)
-        l1.next = head
+        head?.next = self.bestSolution(next.next)
+        next.next = head
 
-        return l1
+        return next
     }
 }

@@ -11,8 +11,6 @@ import Cocoa
 class ClimbStairs1: NSObject {
     static var count = 0
     static func violentSolution(_ n: Int) -> Int {
-        count += 1
-        print("\(n) violentSolution:\(count)")
         
         if n <= 2 {
             return n

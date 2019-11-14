@@ -1,21 +1,16 @@
 //
-//  ReverseLinkedList1.swift
+//  ReverseLinkedList2.swift
 //  LeetCode
 //
-//  Created by zhoumin on 2019/11/12.
+//  Created by zhoumin on 2019/11/13.
 //  Copyright © 2019 ZhouMin. All rights reserved.
 //
 
 import Cocoa
 
-class ReverseLinkedList1: NSObject {
+class ReverseLinkedList2: NSObject {
     static func betterSolution(_ head: ListNode?) -> ListNode? {
-        if head == nil {
-            return head
-        }
-        
         var pre: ListNode?, current = head
-        
         while current != nil {
             let temp = current?.next
             current?.next = pre
@@ -27,15 +22,15 @@ class ReverseLinkedList1: NSObject {
     }
     
     static func bestSolution(_ head: ListNode?) -> ListNode? {
+        
         guard let next = head?.next else {
             return head
         }
-        let ln = bestSolution(next)
+        
+        let ln = self.bestSolution(next)
         next.next = head
         head?.next = nil
-
+        
         return ln
     }
-    
-
 }

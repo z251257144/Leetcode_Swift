@@ -17,4 +17,5 @@ print("Hello, World!")
 //ThreeSumTest()
 //ReverseLinkedListTest()
 
-SwapNodesInPairsDemo()
+//SwapNodesInPairsDemo()
+LinkedListCycleTest()

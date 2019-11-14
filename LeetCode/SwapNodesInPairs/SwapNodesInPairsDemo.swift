@@ -33,6 +33,6 @@ class SwapNodesInPairsDemo: NSObject {
         l1.next?.next?.next?.next = ListNode(9)
         print(l1)
         
-        print("优化解法：\(SwapNodesInPairs1.bestSolution(l1))")
+        print("优化解法：\(SwapNodesInPairs2.bestSolution(l1))")
     }
 }
