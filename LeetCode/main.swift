@@ -19,4 +19,5 @@ print("Hello, World!")
 
 //SwapNodesInPairsDemo()
 //LinkedListCycleTest()
-ReverseNodesInKGroupTest()
+//ReverseNodesInKGroupTest()
+RemoveDuplicatesFromSortedArrayTest()

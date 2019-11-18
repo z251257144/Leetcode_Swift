@@ -20,6 +20,10 @@ public class ListNode: CustomStringConvertible {
     }
     
     public var description: String {
+        return "\(val)"
+    }
+    
+    public var fullDescription: String {
         var string = "\(val)"
         var next = self.next
         while next != nil {

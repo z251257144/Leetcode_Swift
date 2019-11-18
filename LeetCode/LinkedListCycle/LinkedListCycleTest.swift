@@ -27,9 +27,9 @@ class LinkedListCycleTest: NSObject {
         l1.next?.next?.next = ListNode(4)
         let l5 = ListNode(5)
         l1.next?.next?.next?.next = l5
-        l5.next = l1
+        l2.next = l1
 //        print(l1)
         
-        print("优化解法：\(LinkedListCycle1.bestSolution(l1))")
+        print("优化解法：\(LinkedListCycle2.bestSolution(l1))")
     }
 }
