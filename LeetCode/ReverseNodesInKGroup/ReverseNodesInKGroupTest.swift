@@ -18,8 +18,8 @@ class ReverseNodesInKGroupTest: NSObject {
             next = next.next!
         }
           
-        print("链表内容：\(l1.description)")
+        print("链表内容：\(l1.fullDescription)")
         
-        print("优化解法：\(ReverseNodesInKGroup1.reverseKGroup(l1, 3))")
+        print("优化解法：\(ReverseNodesInKGroup2.reverseKGroup(l1, 3)?.fullDescription)")
     }
 }

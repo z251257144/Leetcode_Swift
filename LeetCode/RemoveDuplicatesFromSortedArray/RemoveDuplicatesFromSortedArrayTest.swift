@@ -46,7 +46,7 @@ class RemoveDuplicatesFromSortedArrayTest: NSObject {
     override init() {
         var array = [0,0,1,1,1,2,2,3,3,4]
         print(array)
-        print(RemoveDuplicatesFromSortedArray1.bestSolution(&array))
+        print(RemoveDuplicatesFromSortedArray2.removeDuplicates(&array))
         print(array)
     }
 }
