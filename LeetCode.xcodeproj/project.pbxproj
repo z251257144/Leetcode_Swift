@@ -22,6 +22,8 @@
 		586B1804237A384400EE94F4 /* ReverseLinkedList1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B1803237A384400EE94F4 /* ReverseLinkedList1.swift */; };
 		586B181E237A80A400EE94F4 /* SwapNodesInPairsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B181D237A80A400EE94F4 /* SwapNodesInPairsDemo.swift */; };
 		586B1820237A80AE00EE94F4 /* SwapNodesInPairs1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B181F237A80AE00EE94F4 /* SwapNodesInPairs1.swift */; };
+		587D45972387DB8D00865056 /* PlusOneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D45962387DB8D00865056 /* PlusOneTest.swift */; };
+		587D45992387DB9800865056 /* PlusOne1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D45982387DB9800865056 /* PlusOne1.swift */; };
 		58859DA2237BB08A008E65F1 /* ReverseLinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58859DA1237BB08A008E65F1 /* ReverseLinkedList2.swift */; };
 		588CE0C523730CBE0097D086 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0C423730CBE0097D086 /* main.swift */; };
 		588CE0CE237315200097D086 /* TwoSum1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CD237315200097D086 /* TwoSum1.swift */; };
@@ -75,6 +77,8 @@
 		586B1824237A81B400EE94F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		586B182E237A824300EE94F4 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		586B1830237A824300EE94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587D45962387DB8D00865056 /* PlusOneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTest.swift; sourceTree = "<group>"; };
+		587D45982387DB9800865056 /* PlusOne1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne1.swift; sourceTree = "<group>"; };
 		58859DA1237BB08A008E65F1 /* ReverseLinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList2.swift; sourceTree = "<group>"; };
 		588CE0C123730CBE0097D086 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		588CE0C423730CBE0097D086 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -192,6 +196,15 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		587D45952387DB6500865056 /* PlusOne */ = {
+			isa = PBXGroup;
+			children = (
+				587D45962387DB8D00865056 /* PlusOneTest.swift */,
+				587D45982387DB9800865056 /* PlusOne1.swift */,
+			);
+			path = PlusOne;
+			sourceTree = "<group>";
+		};
 		588CE0B823730CBE0097D086 = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				588CE0C423730CBE0097D086 /* main.swift */,
+				587D45952387DB6500865056 /* PlusOne */,
 				583005722386694A00348C8E /* MergeSortedArray */,
 				5830056D2386583C00348C8E /* MergeTwoSortedListNodes */,
 				58285DAD238514DD0089A35D /* RotateArray */,
@@ -358,6 +372,7 @@
 				586B181E237A80A400EE94F4 /* SwapNodesInPairsDemo.swift in Sources */,
 				58E1715B2382929D003CC543 /* LinkedListCycle2.swift in Sources */,
 				586B1804237A384400EE94F4 /* ReverseLinkedList1.swift in Sources */,
+				587D45972387DB8D00865056 /* PlusOneTest.swift in Sources */,
 				588CE0C523730CBE0097D086 /* main.swift in Sources */,
 				5837DD6A237D3A4800E0BCA9 /* SwapNodesInPairs2.swift in Sources */,
 				58E54F812375413800EAE361 /* ThreeSum1.swift in Sources */,
@@ -367,6 +382,7 @@
 				58859DA2237BB08A008E65F1 /* ReverseLinkedList2.swift in Sources */,
 				58E671B62373AD24008C0F4E /* ContainerWithMostWater1.swift in Sources */,
 				58E671AD2373A7EF008C0F4E /* MoveZeroesTest.swift in Sources */,
+				587D45992387DB9800865056 /* PlusOne1.swift in Sources */,
 				58E1715E23829A3A003CC543 /* RemoveDuplicatesFromSortedArrayTest.swift in Sources */,
 				581F70B92373E6D400AE89AC /* ClimbStairsTest.swift in Sources */,
 				58E671AF2373A7FD008C0F4E /* MoveZeroes1.swift in Sources */,

@@ -49,18 +49,18 @@ class RotateArray1: NSObject {
             return
         }
         
-        var start = 0, next = start, nextNewValue = nums[(next + count - smallK) % count]
+        var start = 0, next = start, nextValue = nums[next]
         for _ in 0..<count {
-            let temp = nums[next]
-            nums[next] = nextNewValue
-            
             next = (next + smallK) % count
-            nextNewValue = temp
+            
+            let temp = nums[next]
+            nums[next] = nextValue
+            nextValue = temp
             
             if start == next {
                 start += 1
                 next = start
-                nextNewValue = nums[(next + count - smallK ) % count]
+                nextValue = nums[next]
             }
         }
     }
