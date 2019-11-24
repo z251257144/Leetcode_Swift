@@ -32,6 +32,6 @@ class MergeTwoSortedListNodesTest: NSObject {
         l2.next = ListNode(4)
         l2.next?.next = ListNode(6)
         
-        print(MergeTwoSortedListNodes1().betterSolution(l1, l2)?.fullDescription)
+        print(MergeTwoSortedListNodes2().bestSolution(l1, l2)?.fullDescription)
     }
 }

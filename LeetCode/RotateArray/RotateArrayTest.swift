@@ -27,8 +27,8 @@ import Cocoa
 
 class RotateArrayTest: NSObject {
     override init() {
-        var array = [1,2,3,4,5,6]
-        RotateArray1().bestSolution(&array, 2)
+        var array = [1,2,3,4,5,6, 7]
+        RotateArray2().bestSolution(&array, 10)
         print(array)
     }
 }

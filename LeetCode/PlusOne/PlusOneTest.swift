@@ -11,7 +11,7 @@ import Cocoa
 class PlusOneTest: NSObject {
     override init() {
         let arr = [9]
-        let a = PlusOne1().plusOne(arr)
+        let a = PlusOne2().plusOne(arr)
         print(a)
     }
 }
