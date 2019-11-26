@@ -20,7 +20,7 @@ struct Stack<Element> : CustomStringConvertible {
         elementArray.append(item)
     }
     
-    mutating func pop() -> Element? {
+    @discardableResult mutating func pop() -> Element? {
         return elementArray.popLast()
     }
     
