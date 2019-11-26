@@ -48,6 +48,8 @@
 		58E671B42373AD18008C0F4E /* ContainerWithMostWaterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B32373AD18008C0F4E /* ContainerWithMostWaterTest.swift */; };
 		58E671B62373AD24008C0F4E /* ContainerWithMostWater1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B52373AD24008C0F4E /* ContainerWithMostWater1.swift */; };
 		58E671B82373ADA0008C0F4E /* ContainerWithMostWater2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E671B72373ADA0008C0F4E /* ContainerWithMostWater2.swift */; };
+		58F0BC4A238CFDB3006AD9B9 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F0BC49238CFDB3006AD9B9 /* Stack.swift */; };
+		58F0BC4C238D104A006AD9B9 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F0BC4B238D1049006AD9B9 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -108,6 +110,8 @@
 		58E671B32373AD18008C0F4E /* ContainerWithMostWaterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTest.swift; sourceTree = "<group>"; };
 		58E671B52373AD24008C0F4E /* ContainerWithMostWater1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater1.swift; sourceTree = "<group>"; };
 		58E671B72373ADA0008C0F4E /* ContainerWithMostWater2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater2.swift; sourceTree = "<group>"; };
+		58F0BC49238CFDB3006AD9B9 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		58F0BC4B238D1049006AD9B9 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				588CE0C423730CBE0097D086 /* main.swift */,
+				58F0BC48238CFD8A006AD9B9 /* Stack & Queue */,
 				587D45952387DB6500865056 /* PlusOne */,
 				583005722386694A00348C8E /* MergeSortedArray */,
 				5830056D2386583C00348C8E /* MergeTwoSortedListNodes */,
@@ -316,6 +321,15 @@
 			path = ContainerWithMostWater;
 			sourceTree = "<group>";
 		};
+		58F0BC48238CFD8A006AD9B9 /* Stack & Queue */ = {
+			isa = PBXGroup;
+			children = (
+				58F0BC49238CFDB3006AD9B9 /* Stack.swift */,
+				58F0BC4B238D1049006AD9B9 /* Queue.swift */,
+			);
+			path = "Stack & Queue";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -390,6 +404,7 @@
 				588CE0C523730CBE0097D086 /* main.swift in Sources */,
 				5837DD6A237D3A4800E0BCA9 /* SwapNodesInPairs2.swift in Sources */,
 				58E54F812375413800EAE361 /* ThreeSum1.swift in Sources */,
+				58F0BC4A238CFDB3006AD9B9 /* Stack.swift in Sources */,
 				58285DAF238514F20089A35D /* RotateArrayTest.swift in Sources */,
 				58E1715923829269003CC543 /* ReverseNodesInKGroupTest.swift in Sources */,
 				5837DD6D237D41DF00E0BCA9 /* LinkedListCycleTest.swift in Sources */,
@@ -400,6 +415,7 @@
 				58E1715E23829A3A003CC543 /* RemoveDuplicatesFromSortedArrayTest.swift in Sources */,
 				581F70B92373E6D400AE89AC /* ClimbStairsTest.swift in Sources */,
 				58E671AF2373A7FD008C0F4E /* MoveZeroes1.swift in Sources */,
+				58F0BC4C238D104A006AD9B9 /* Queue.swift in Sources */,
 				589BA3192389238D00B884FB /* RotateArray2.swift in Sources */,
 				58E1715823829269003CC543 /* ReverseNodesInKGroup1.swift in Sources */,
 				588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */,
