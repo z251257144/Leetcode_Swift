@@ -26,4 +26,5 @@ RotateArrayTest()
 //MergeSortedArrayTest()
 //PlusOneTest()
 ValidParenthesesTest()
+LargestRectangleInHistogramTest()
 

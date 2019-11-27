@@ -28,6 +28,8 @@
 		587D45972387DB8D00865056 /* PlusOneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D45962387DB8D00865056 /* PlusOneTest.swift */; };
 		587D45992387DB9800865056 /* PlusOne1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D45982387DB9800865056 /* PlusOne1.swift */; };
 		58859DA2237BB08A008E65F1 /* ReverseLinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58859DA1237BB08A008E65F1 /* ReverseLinkedList2.swift */; };
+		5888B842238E16FB009207EE /* LargestRectangleInHistogramTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888B841238E16FB009207EE /* LargestRectangleInHistogramTest.swift */; };
+		5888B844238E1702009207EE /* LargestRectangleInHistogram1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888B843238E1702009207EE /* LargestRectangleInHistogram1.swift */; };
 		588CE0C523730CBE0097D086 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0C423730CBE0097D086 /* main.swift */; };
 		588CE0CE237315200097D086 /* TwoSum1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CD237315200097D086 /* TwoSum1.swift */; };
 		588CE0D0237315480097D086 /* TwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588CE0CF237315480097D086 /* TwoSumTest.swift */; };
@@ -92,6 +94,8 @@
 		587D45962387DB8D00865056 /* PlusOneTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTest.swift; sourceTree = "<group>"; };
 		587D45982387DB9800865056 /* PlusOne1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne1.swift; sourceTree = "<group>"; };
 		58859DA1237BB08A008E65F1 /* ReverseLinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList2.swift; sourceTree = "<group>"; };
+		5888B841238E16FB009207EE /* LargestRectangleInHistogramTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleInHistogramTest.swift; sourceTree = "<group>"; };
+		5888B843238E1702009207EE /* LargestRectangleInHistogram1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargestRectangleInHistogram1.swift; sourceTree = "<group>"; };
 		588CE0C123730CBE0097D086 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		588CE0C423730CBE0097D086 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		588CE0CD237315200097D086 /* TwoSum1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum1.swift; sourceTree = "<group>"; };
@@ -244,6 +248,15 @@
 			path = PlusOne;
 			sourceTree = "<group>";
 		};
+		5888B840238E16EE009207EE /* LargestRectangleInHistogram */ = {
+			isa = PBXGroup;
+			children = (
+				5888B841238E16FB009207EE /* LargestRectangleInHistogramTest.swift */,
+				5888B843238E1702009207EE /* LargestRectangleInHistogram1.swift */,
+			);
+			path = LargestRectangleInHistogram;
+			sourceTree = "<group>";
+		};
 		588CE0B823730CBE0097D086 = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +360,7 @@
 		58F0BC48238CFD8A006AD9B9 /* Stack & Queue */ = {
 			isa = PBXGroup;
 			children = (
+				5888B840238E16EE009207EE /* LargestRectangleInHistogram */,
 				5832407A238D72CE00BBDEFC /* MinStack */,
 				58324075238D68D100BBDEFC /* ValidParentheses */,
 				58F0BC49238CFDB3006AD9B9 /* Stack.swift */,
@@ -415,6 +429,7 @@
 			files = (
 				58E671B42373AD18008C0F4E /* ContainerWithMostWaterTest.swift in Sources */,
 				58285DB1238514FB0089A35D /* RotateArray1.swift in Sources */,
+				5888B844238E1702009207EE /* LargestRectangleInHistogram1.swift in Sources */,
 				588CE0CE237315200097D086 /* TwoSum1.swift in Sources */,
 				58E671AA2373A684008C0F4E /* TwoSum2.swift in Sources */,
 				589BA3172389205900B884FB /* MergeSortedArray2.swift in Sources */,
@@ -449,6 +464,7 @@
 				58324079238D690E00BBDEFC /* ValidParentheses1.swift in Sources */,
 				586B1802237A380300EE94F4 /* ReverseLinkedListTest.swift in Sources */,
 				58E671B12373A80D008C0F4E /* MoveZeroes2.swift in Sources */,
+				5888B842238E16FB009207EE /* LargestRectangleInHistogramTest.swift in Sources */,
 				58E1716023829A51003CC543 /* RemoveDuplicatesFromSortedArray1.swift in Sources */,
 				589BA3152388E30E00B884FB /* MergeTwoSortedListNodes2.swift in Sources */,
 				58AAB23E2383BD31008EA4BE /* ReverseNodesInKGroup2.swift in Sources */,
